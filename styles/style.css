@@ -1,6 +1,6 @@
 /* ----  titles  ---- */
 .title-h1 {
-    display: none;
+    
 }
 
 .title-h2 {
@@ -29,10 +29,67 @@
     color: #0d606f;
 }
 /* ----  end titles  ---- */
-/* ----  header  ---- */
+/* ----  hero  ---- */
+.hero {
+    background-color: #f4f4f4;
+    padding: 110px 0 84px 0;
+}
 
-/* ----  end header  ---- */
+.hero__title {
+    margin: 0 auto;
+    margin-bottom: 74px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+}
 
+.hero__text {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 145%;
+    text-align: center;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px)  {
+    .hero {
+        padding: 130px 0 112px 0;
+    }
+
+    .hero__title {
+        margin-bottom: 96px;
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .hero__text {
+        max-width: 640px;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 420px)  {
+    .hero {
+        padding: 64px 0 74px 0;
+    }
+
+    .hero__title {
+        margin-bottom: 60px;
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .hero__text {
+        font-size: 18px;
+    }
+}
+/* ----  end hero  ---- */
 /* ----  footer  ---- */
 
 /* ----  end footer  ---- */

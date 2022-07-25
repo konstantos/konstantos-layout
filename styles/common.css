@@ -13,10 +13,16 @@ a {
 
 .container {
     position: relative;
-    max-width: 1230px;
+    max-width: 1400px;
     height: 100%;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 24px;
+}
+
+@media screen and (max-width: 420px)  {
+    .container {
+        padding: 0 16px;
+    }
 }
 
 img {
