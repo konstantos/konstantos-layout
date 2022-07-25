@@ -1,0 +1,38 @@
+/* ----  titles  ---- */
+.title-h1 {
+    display: none;
+}
+
+.title-h2 {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #f2785c;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title-h3 {
+    font-family: 'Aleo', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #0d606f;
+}
+
+.title-h4 {
+    font-family: 'Aleo', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #0d606f;
+}
+/* ----  end titles  ---- */
+/* ----  header  ---- */
+
+/* ----  end header  ---- */
+
+/* ----  footer  ---- */
+
+/* ----  end footer  ---- */
