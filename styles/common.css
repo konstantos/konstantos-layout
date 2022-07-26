@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    color: #0d606f;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
 }
 
 a {
@@ -13,7 +14,7 @@ a {
 
 .container {
     position: relative;
-    max-width: 1400px;
+    max-width: 1448px;
     height: 100%;
     margin: 0 auto;
     padding: 0 24px;

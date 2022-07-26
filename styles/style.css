@@ -38,23 +38,19 @@
 .hero__title {
     margin: 0 auto;
     margin-bottom: 74px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 66px;
     text-align: center;
-    color: #000000;
 }
 
 .hero__text {
     margin: 0 auto;
     max-width: 1200px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 145%;
-    text-align: center;
-    color: #000000;
+    text-align: center;    
 }
 
 @media screen and (max-width: 768px)  {
@@ -90,6 +86,87 @@
     }
 }
 /* ----  end hero  ---- */
+/* ----  progress  ---- */
+.progress__wrapper {
+    display: flex;
+}
+
+.progress__item {
+    width: 50%;
+}
+
+.progress__item:nth-child(2) {
+    padding: 70px 0 20px 3.9vw;
+}
+
+.progress__title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 145%;
+}
+
+.progress__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 145%;
+}
+
+.progress__image {
+    height: 100%;
+}
+
+@media screen and (max-width: 1120px) {
+    .progress__wrapper {
+        flex-direction: column;
+    }
+    
+    .progress__item {
+        width: 100%;
+    }
+
+    .progress__item:nth-child(1) {
+        height: 490px;
+    }
+
+    .progress__item:nth-child(2) {
+        padding: 70px 0 20px 0;
+    }
+    
+    .progress__image {
+        margin: -5px -24px 0;
+    }
+}
+
+/* ----  end progress  ---- */
+/* ----  cartoons  ---- */
+.cartoons {
+    padding: 100px 0 140px;
+    background-color: #f4f4f4;
+}
+
+.cartoons__title {
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 145%;
+    text-align: center;
+}
+
+.cartoons__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartoons__item {
+    width: 48.6%;
+    height: 440px;
+}
+
+.cartoons__image {
+    height: 100%;
+}
+/* ----  end cartoons  ---- */
 /* ----  footer  ---- */
 
 /* ----  end footer  ---- */
